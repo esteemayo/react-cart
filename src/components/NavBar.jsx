@@ -1,4 +1,4 @@
-import { CartIcon } from './../icons';
+import { CartIcon } from '../icons';
 import { useGlobalContext } from 'utils/context';
 
 const NavBar = () => {
