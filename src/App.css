@@ -29,8 +29,8 @@ Variables
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -162,7 +162,8 @@ nav h3 {
 
 nav svg {
   width: 2rem;
-  fill: var(--clr-white);
+  /* fill: var(--clr-white); */
+  color: var(--clr-white);
 }
 
 .amount-container {
@@ -290,11 +291,13 @@ Cart Item
 }
 
 .amount-btn svg {
-  fill: var(--clr-primary);
+  /* fill: var(--clr-primary); */
+  color: var(--clr-primary);
 }
 
 .amount-btn:hover svg {
-  fill: var(--clr-primary-light);
+  /* fill: var(--clr-primary-light); */
+  color: var(--clr-primary-light);
 }
 
 .amount {
@@ -308,4 +311,41 @@ hr {
   background: var(--clr-grey-5);
   border-color: transparent;
   border-width: 0.25px;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: var(--clr-white);
+  width: 80vw;
+  max-width: 400px;
+  border-radius: var(--radius);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.modal h4 {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal .clear-btn,
+.modal .confirm-btn {
+  margin-top: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
 }
