@@ -61,7 +61,10 @@ const AppProvider = ({ children }) => {
     dispatch({ type: LOADING });
     const res = await fetch(apiEndpoint);
     const cart = await res.json();
-    dispatch({ type: DISPLAY_ITEMS, payload: cart });
+    dispatch({
+      type: DISPLAY_ITEMS,
+      payload: cart,
+    });
   };
 
   const toggleAmount = (id, type) => {
