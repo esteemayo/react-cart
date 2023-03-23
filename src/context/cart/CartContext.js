@@ -28,7 +28,7 @@ const INITIAL_STATE = {
 const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(CartReducer, initialState);
+  const [state, dispatch] = useReducer(CartReducer, INITIAL_STATE);
 
   const handleClearCart = () => {
     dispatch({
