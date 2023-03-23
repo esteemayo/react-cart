@@ -68,7 +68,13 @@ const AppProvider = ({ children }) => {
   };
 
   const toggleAmount = (id, type) => {
-    dispatch({ type: TOGGLE_AMOUNT, payload: { id, type } });
+    dispatch({
+      type: TOGGLE_AMOUNT,
+      payload: {
+        id,
+        type,
+      },
+    });
   };
 
   const openModal = () => {
