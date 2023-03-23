@@ -113,7 +113,7 @@ const AppProvider = ({ children }) => {
       }}
     >
       {children}
-    </AppContext.Provider>
+    </CartContext.Provider>
   );
 };
 
