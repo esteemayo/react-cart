@@ -20,8 +20,10 @@ const CartReducer = (state, { type, payload }) => {
   }
 
   if (type === REMOVE) {
-    const newCart = state.cart.filter((c) => c.id !== payload);
-    return { ...state, cart: newCart };
+    return {
+      ...state,
+      cart: state.cart.filter((c) => c.id !== payload),
+    };
   }
 
   if (type === INCREASE) {
