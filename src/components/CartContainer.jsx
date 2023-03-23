@@ -1,5 +1,5 @@
 import CartItem from './CartItem';
-import { useGlobalContext } from 'context/cart/context';
+import { useGlobalContext } from 'context/cart/CartContext';
 
 const CartContainer = () => {
   const { cart, total, openModal } = useGlobalContext();
