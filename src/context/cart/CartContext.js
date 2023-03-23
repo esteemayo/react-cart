@@ -37,7 +37,10 @@ const AppProvider = ({ children }) => {
   };
 
   const handleRemove = (id) => {
-    dispatch({ type: REMOVE, payload: id });
+    dispatch({
+      type: REMOVE,
+      payload: id,
+    });
   };
 
   const handleIncrement = (id) => {
