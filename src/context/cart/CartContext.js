@@ -13,7 +13,6 @@ import {
   TOGGLE_AMOUNT,
 } from './CartTypes';
 import cartItems from 'services/dataService';
-import reducer from './CartReducer';
 import CartReducer from './CartReducer';
 
 const apiEndpoint = 'https://course-api.com/react-useReducer-cart-project';
