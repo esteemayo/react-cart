@@ -27,9 +27,10 @@ const CartReducer = (state, { type, payload }) => {
   }
 
   if (type === INCREASE) {
-    let tempCart = state.cart.map((cartItem) =>
-      cartItem.id === payload ? { ...cartItem, amount: cartItem.amount + 1 } : cartItem
-    );
+    let tempCart = state.cart
+      .map((cartItem) =>
+        cartItem.id === payload ? { ...cartItem, amount: cartItem.amount + 1 } : cartItem
+      );
 
     return {
       ...state,
