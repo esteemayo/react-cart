@@ -1,4 +1,4 @@
-import { useGlobalContext } from 'context/cart/context';
+import { useGlobalContext } from 'context/cart/CartContext';
 import { ChevronDown, ChevronUp } from '../icons';
 
 const CartItem = ({ id, img, title, price, amount }) => {
