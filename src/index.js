@@ -6,9 +6,9 @@ import CartProvider from './context/cart/CartContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
+    <CartProvider>
       <App />
-    </AppProvider>
+    </CartProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
