@@ -31,7 +31,9 @@ const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const handleClearCart = () => {
-    dispatch({ type: CLEAR_CART });
+    dispatch({
+      type: CLEAR_CART,
+    });
   };
 
   const handleRemove = (id) => {
