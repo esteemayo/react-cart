@@ -1,3 +1,4 @@
+import { ChevronDown, ChevronUp } from '../icons';
 import { useGlobalContext } from 'context/cart/CartContext';
 import { ChevronDown, ChevronUp } from '../icons';
 
