@@ -13,7 +13,10 @@ import {
 
 const CartReducer = (state, { type, payload }) => {
   if (type === CLEAR_CART) {
-    return { ...state, cart: [] };
+    return {
+      ...state,
+      cart: [],
+    };
   }
 
   if (type === REMOVE) {
