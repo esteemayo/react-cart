@@ -51,7 +51,10 @@ const AppProvider = ({ children }) => {
   };
 
   const handleDecrement = (id) => {
-    dispatch({ type: DECREASE, payload: id });
+    dispatch({
+      type: DECREASE,
+      payload: id,
+    });
   };
 
   const fetchData = async () => {
