@@ -100,7 +100,7 @@ const AppProvider = ({ children }) => {
   }, [state.cart]);
 
   return (
-    <AppContext.Provider
+    <CartContext.Provider
       value={{
         ...state,
         handleClearCart,
