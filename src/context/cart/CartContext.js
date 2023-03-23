@@ -121,4 +121,4 @@ export const useGlobalContext = () => {
   return useContext(CartContext);
 };
 
-export { CartProvider };
+export default CartProvider;
