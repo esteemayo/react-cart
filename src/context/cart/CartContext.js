@@ -78,7 +78,9 @@ const AppProvider = ({ children }) => {
   };
 
   const openModal = () => {
-    dispatch({ type: OPEN_MODAL });
+    dispatch({
+      type: OPEN_MODAL,
+    });
   };
 
   const closeModal = () => {
