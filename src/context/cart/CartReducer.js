@@ -69,7 +69,11 @@ const CartReducer = (state, { type, payload }) => {
 
     total = parseFloat(total.toFixed(2));
 
-    return { ...state, total, amount };
+    return {
+      ...state,
+      total,
+      amount,
+    };
   }
 
   if (type === LOADING) {
