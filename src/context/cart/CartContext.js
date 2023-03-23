@@ -84,7 +84,9 @@ const AppProvider = ({ children }) => {
   };
 
   const closeModal = () => {
-    dispatch({ type: CLOSE_MODAL });
+    dispatch({
+      type: CLOSE_MODAL,
+    });
   };
 
   useEffect(() => {
