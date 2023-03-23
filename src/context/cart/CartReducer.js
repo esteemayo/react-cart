@@ -40,12 +40,7 @@ const CartReducer = (state, { type, payload }) => {
 
   if (type === DECREASE) {
     const tempCart = state.cart
-      .map((cartItem) => {
-        if (cartItem.id === payload) {
-          return { ...cartItem, amount: cartItem.amount - 1 };
-        }
-        return cartItem;
-      })
+      .map((cartItem) => cartItem.id === payload ? { ...cartItem, amount: cartItem.amount - 1 } : cartItem)
       .filter((cartItem) => cartItem.amount !== 0);
 
     return { ...state, cart: tempCart };
