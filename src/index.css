@@ -137,7 +137,7 @@ Navbar
 }
 
 nav {
-  background: var(--clr-primary);
+  background-color: var(--clr-primary);
   padding: 1.25rem 2rem;
 }
 
