@@ -15,7 +15,7 @@ const cartItems = [
   },
   {
     id: 3,
-    title: "Xiaomi Redmi Note 2",
+    title: 'Xiaomi Redmi Note 2',
     price: 699.99,
     img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368224/phone-3_h2s6fo.png",
     amount: 1,
