@@ -34,7 +34,10 @@ const CartReducer = (state, { type, payload }) => {
       return cartItem;
     });
 
-    return { ...state, cart: tempCart };
+    return {
+      ...state,
+      cart: tempCart,
+    };
   }
 
   if (type === DECREASE) {
