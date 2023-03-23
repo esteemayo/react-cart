@@ -1,5 +1,4 @@
 import Modal from 'components/Modal';
-import NavBar from 'components/NavBar';
 import CartContainer from 'components/CartContainer';
 import NavBar from 'components/NavBar';
 import { useGlobalContext } from 'context/cart/CartContext';
