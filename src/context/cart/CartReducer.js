@@ -45,7 +45,10 @@ const CartReducer = (state, { type, payload }) => {
       )
       .filter((cartItem) => cartItem.amount !== 0);
 
-    return { ...state, cart: tempCart };
+    return {
+      ...state,
+      cart: tempCart,
+    };
   }
 
   if (type === GET_TOTALS) {
