@@ -2,7 +2,7 @@ import Modal from 'components/Modal';
 import NavBar from 'components/NavBar';
 import CartContainer from 'components/CartContainer';
 
-import { useGlobalContext } from 'utils/context';
+import { useGlobalContext } from 'context/cart/CartContext';
 
 import './App.css';
 
