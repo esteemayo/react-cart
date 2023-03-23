@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CartProvider from 'context/cart/CartContext';
 
+import './index.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <CartProvider>
