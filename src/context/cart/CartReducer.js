@@ -107,7 +107,10 @@ const CartReducer = (state, { type, payload }) => {
 
     tempCart = tempCart.filter((cartItem) => cartItem.amount !== 0);
 
-    return { ...state, cart: tempCart };
+    return {
+      ...state,
+      cart: tempCart,
+    };
   }
 
   if (type === OPEN_MODAL) {
