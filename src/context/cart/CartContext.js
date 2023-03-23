@@ -44,7 +44,10 @@ const AppProvider = ({ children }) => {
   };
 
   const handleIncrement = (id) => {
-    dispatch({ type: INCREASE, payload: id });
+    dispatch({
+      type: INCREASE,
+      payload: id,
+    });
   };
 
   const handleDecrement = (id) => {
