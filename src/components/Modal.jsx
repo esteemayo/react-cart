@@ -1,4 +1,4 @@
-import { useGlobalContext } from 'utils/context';
+import { useGlobalContext } from 'context/cart/context';
 
 const Modal = () => {
   const { closeModal, handleClearCart } = useGlobalContext();
