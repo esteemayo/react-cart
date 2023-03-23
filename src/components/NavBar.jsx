@@ -1,5 +1,5 @@
 import { CartIcon } from '../icons';
-import { useGlobalContext } from 'context/cart/context';
+import { useGlobalContext } from 'context/cart/CartContext';
 
 const NavBar = () => {
   const { amount } = useGlobalContext();
