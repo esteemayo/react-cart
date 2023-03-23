@@ -29,7 +29,7 @@ const initialState = {
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(CartReducer, initialState);
 
   const handleClearCart = () => {
     dispatch({
