@@ -77,7 +77,10 @@ const CartReducer = (state, { type, payload }) => {
   }
 
   if (type === LOADING) {
-    return { ...state, loading: true };
+    return {
+      ...state,
+      loading: true,
+    };
   }
 
   if (type === DISPLAY_ITEMS) {
