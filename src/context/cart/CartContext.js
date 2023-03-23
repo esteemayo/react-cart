@@ -25,7 +25,7 @@ const initialState = {
   amount: 0,
 };
 
-const AppContext = createContext();
+const CartContext = createContext();
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(CartReducer, initialState);
