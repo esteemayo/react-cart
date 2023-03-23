@@ -3,8 +3,6 @@ import CartContainer from 'components/CartContainer';
 import NavBar from 'components/NavBar';
 import { useGlobalContext } from 'context/cart/CartContext';
 
-import './App.css';
-
 function App() {
   const { loading, isOpen } = useGlobalContext();
 
