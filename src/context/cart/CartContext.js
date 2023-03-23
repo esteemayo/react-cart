@@ -17,7 +17,7 @@ import CartReducer from './CartReducer';
 
 const apiEndpoint = 'https://course-api.com/react-useReducer-cart-project';
 
-const initialState = {
+const INITIAL_STATE = {
   loading: false,
   isOpen: false,
   cart: cartItems,
