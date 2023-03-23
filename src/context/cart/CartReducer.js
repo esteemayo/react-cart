@@ -11,7 +11,7 @@ import {
   TOGGLE_AMOUNT,
 } from './CartTypes';
 
-const reducer = (state, { type, payload }) => {
+const CartReducer = (state, { type, payload }) => {
   if (type === CLEAR_CART) {
     return { ...state, cart: [] };
   }
@@ -110,4 +110,4 @@ const reducer = (state, { type, payload }) => {
   throw new Error('No matching action type');
 };
 
-export default reducer;
+export default CartReducer;
