@@ -84,7 +84,11 @@ const CartReducer = (state, { type, payload }) => {
   }
 
   if (type === DISPLAY_ITEMS) {
-    return { ...state, cart: payload, loading: false };
+    return {
+      ...state,
+      cart: payload,
+      loading: false,
+    };
   }
 
   if (type === TOGGLE_AMOUNT) {
