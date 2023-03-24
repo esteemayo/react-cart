@@ -74,7 +74,7 @@ const CartProvider = ({ children }) => {
 
   const closeModal = () => {
     dispatch({
-      type: CLOSE_MODAL,
+      type: types.CLOSE_MODAL,
     });
   };
 
