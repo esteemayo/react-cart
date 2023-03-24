@@ -109,7 +109,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === CLOSE_MODAL) {
+  if (type === types.CLOSE_MODAL) {
     return {
       ...state,
       isOpen: false,
