@@ -1,6 +1,5 @@
 import { useEffect, useContext, useReducer, createContext } from 'react';
 
-import * as types from './CartTypes';
 import cartItems from 'data';
 import CartReducer from './CartReducer';
 import * as types from './CartTypes';
