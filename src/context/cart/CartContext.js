@@ -47,7 +47,7 @@ const CartProvider = ({ children }) => {
   };
 
   const fetchData = async () => {
-    dispatch({ type: LOADING });
+    dispatch({ type: types.LOADING });
     const res = await fetch(apiUrl);
     const cart = await res.json();
     dispatch({
