@@ -308,7 +308,7 @@ Cart Item
 }
 
 hr {
-  background: var(--clr-grey-5);
+  background-color: var(--clr-grey-5);
   border-color: transparent;
   border-width: 0.25px;
 }
