@@ -65,7 +65,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === LOADING) {
+  if (type === types.LOADING) {
     return {
       ...state,
       loading: true,
