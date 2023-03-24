@@ -1,17 +1,6 @@
 import { useEffect, useContext, useReducer, createContext } from 'react';
 
-import {
-  CLEAR_CART,
-  CLOSE_MODAL,
-  DECREASE,
-  DISPLAY_ITEMS,
-  GET_TOTALS,
-  INCREASE,
-  LOADING,
-  OPEN_MODAL,
-  REMOVE,
-  TOGGLE_AMOUNT,
-} from './CartTypes';
+import * as types from './CartTypes';
 import cartItems from 'data';
 import CartReducer from './CartReducer';
 
