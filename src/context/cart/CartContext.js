@@ -21,7 +21,7 @@ const CartProvider = ({ children }) => {
 
   const handleClearCart = () => {
     dispatch({
-      type: CLEAR_CART,
+      type: types.CLEAR_CART,
     });
   };
 
