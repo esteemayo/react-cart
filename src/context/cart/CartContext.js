@@ -51,7 +51,7 @@ const CartProvider = ({ children }) => {
     const res = await fetch(apiUrl);
     const cart = await res.json();
     dispatch({
-      type: DISPLAY_ITEMS,
+      type: types.DISPLAY_ITEMS,
       payload: cart,
     });
   };
