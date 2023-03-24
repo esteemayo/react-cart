@@ -285,7 +285,7 @@ Cart Item
 
 .amount-btn {
   width: 1.5rem;
-  background: transparent;
+  background-color: transparent;
   border: none;
   cursor: pointer;
 }
