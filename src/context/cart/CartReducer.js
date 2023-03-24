@@ -72,7 +72,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === DISPLAY_ITEMS) {
+  if (type === types.DISPLAY_ITEMS) {
     return {
       ...state,
       cart: payload,
