@@ -68,7 +68,7 @@ const CartProvider = ({ children }) => {
 
   const openModal = () => {
     dispatch({
-      type: OPEN_MODAL,
+      type: types.OPEN_MODAL,
     });
   };
 
