@@ -27,7 +27,7 @@ const CartProvider = ({ children }) => {
 
   const handleRemove = (id) => {
     dispatch({
-      type: REMOVE,
+      type: types.REMOVE,
       payload: id,
     });
   };
