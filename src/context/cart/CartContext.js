@@ -84,7 +84,7 @@ const CartProvider = ({ children }) => {
 
   useEffect(() => {
     dispatch({
-      type: GET_TOTALS,
+      type: types.GET_TOTALS,
     });
   }, [state.cart]);
 
