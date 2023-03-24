@@ -41,7 +41,7 @@ const CartProvider = ({ children }) => {
 
   const handleDecrement = (id) => {
     dispatch({
-      type: DECREASE,
+      type: types.DECREASE,
       payload: id,
     });
   };
