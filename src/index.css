@@ -225,7 +225,7 @@ Cart
 }
 
 .clear-btn {
-  background: transparent;
+  background-color: transparent;
   padding: 0.5rem 1rem;
   color: var(--clr-red-dark);
   border: 1px solid var(--clr-red-dark);
