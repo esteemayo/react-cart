@@ -1,15 +1,4 @@
-import {
-  CLEAR_CART,
-  CLOSE_MODAL,
-  DECREASE,
-  DISPLAY_ITEMS,
-  GET_TOTALS,
-  INCREASE,
-  LOADING,
-  OPEN_MODAL,
-  REMOVE,
-  TOGGLE_AMOUNT,
-} from './CartTypes';
+import * as types from './CartTypes';
 
 const CartReducer = (state, { type, payload }) => {
   if (type === CLEAR_CART) {
