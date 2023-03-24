@@ -234,7 +234,7 @@ Cart
 }
 
 .clear-btn:hover {
-  background: var(--clr-red-light);
+  background-color: var(--clr-red-light);
   color: var(--clr-red-dark);
   border-color: var(--clr-red-light);
 }
