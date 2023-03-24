@@ -80,7 +80,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === TOGGLE_AMOUNT) {
+  if (type === types.TOGGLE_AMOUNT) {
     let tempCart = state.cart.map((cartItem) => {
       if (cartItem.id === payload.id) {
         if (payload.type === 'inc') {
