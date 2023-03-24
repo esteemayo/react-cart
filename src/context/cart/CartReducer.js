@@ -8,7 +8,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === REMOVE) {
+  if (type === types.REMOVE) {
     return {
       ...state,
       cart: state.cart.filter((c) => c.id !== payload),
