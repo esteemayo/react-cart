@@ -1,7 +1,7 @@
 import * as types from './CartTypes';
 
 const CartReducer = (state, { type, payload }) => {
-  if (type === CLEAR_CART) {
+  if (type === types.CLEAR_CART) {
     return {
       ...state,
       cart: [],
