@@ -40,7 +40,7 @@ const CartReducer = (state, { type, payload }) => {
     };
   }
 
-  if (type === GET_TOTALS) {
+  if (type === types.GET_TOTALS) {
     let { total, amount } = state.cart.reduce(
       (cartTotal, cartItem) => {
         const { price, amount } = cartItem;
