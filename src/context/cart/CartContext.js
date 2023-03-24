@@ -34,7 +34,7 @@ const CartProvider = ({ children }) => {
 
   const handleIncrement = (id) => {
     dispatch({
-      type: INCREASE,
+      type: types.INCREASE,
       payload: id,
     });
   };
