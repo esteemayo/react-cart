@@ -15,7 +15,7 @@ import {
 import cartItems from 'data';
 import CartReducer from './CartReducer';
 
-const apiEndpoint = 'https://course-api.com/react-useReducer-cart-project';
+const apiUrl = 'https://course-api.com/react-useReducer-cart-project';
 
 const INITIAL_STATE = {
   loading: false,
